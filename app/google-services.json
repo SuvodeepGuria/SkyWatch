@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "931258593434",
+    "project_id": "skywatch-67a59",
+    "storage_bucket": "skywatch-67a59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931258593434:android:dbad46a9dca0f0078daf23",
+        "android_client_info": {
+          "package_name": "com.suvodeep.skyWatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC5hexf6L0IW5_4ZwJOe-z5I4ddO0F11M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
