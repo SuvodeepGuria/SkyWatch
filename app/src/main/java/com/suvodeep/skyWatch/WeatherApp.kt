@@ -72,7 +72,7 @@ fun WeatherApp() {
     val weatherResponse by viewModel.weatherResponse.collectAsState()
     val errorMessage by viewModel.errorMessage.collectAsState()
     val city by remember { mutableStateOf("") }
-    val apiKey = BuildConfig.API_KEY
+    val apiKey = BuildConfig.API_KEY                       //API Key is hide
     val inputState= remember { mutableStateOf("") }
     val validState= remember(inputState.value) { inputState.value.trim().isNotEmpty()}
     val keyboardController= LocalSoftwareKeyboardController.current
